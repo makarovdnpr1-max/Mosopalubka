@@ -1,0 +1,6 @@
+{
+  "name": "Мосопалубка",
+  "description": "Аренда и продажа строительной опалубки и оборудования по ГОСТ в Москве и Московской области",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
