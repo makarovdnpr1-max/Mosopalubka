@@ -442,28 +442,28 @@ export default function App() {
             </div>
 
             {/* Navigation Menu (Desktop) */}
-            <nav className="hidden lg:flex items-center space-x-6 font-semibold text-xs xl:text-sm text-gray-700">
-              <a href="#about" className="hover:text-brand transition-colors">О нас</a>
-              <a href="#catalog" className="hover:text-brand transition-colors">Каталог оборудования</a>
-              <a href="#calculator" className="hover:text-brand transition-colors">Калькулятор</a>
-              <a href="#fleet" className="hover:text-brand transition-colors">Наш автопарк</a>
-              <a href="#quiz" className="hover:text-brand transition-colors">Опрос-расчет</a>
-              <a href="#advantages" className="hover:text-brand transition-colors">Почему мы</a>
+            <nav className="hidden lg:flex items-center lg:space-x-3 xl:space-x-6 font-bold lg:text-[11px] xl:text-sm text-gray-700 whitespace-nowrap flex-shrink-0">
+              <a href="#about" className="hover:text-brand transition-colors py-2 whitespace-nowrap">О нас</a>
+              <a href="#catalog" className="hover:text-brand transition-colors py-2 whitespace-nowrap">Каталог оборудования</a>
+              <a href="#calculator" className="hover:text-brand transition-colors py-2 whitespace-nowrap">Калькулятор</a>
+              <a href="#fleet" className="hover:text-brand transition-colors py-2 whitespace-nowrap">Наш автопарк</a>
+              <a href="#quiz" className="hover:text-brand transition-colors py-2 whitespace-nowrap">Опрос-расчет</a>
+              <a href="#advantages" className="hover:text-brand transition-colors py-2 whitespace-nowrap">Почему мы</a>
             </nav>
 
             {/* Right Header Phone & CTAs */}
-            <div className="hidden md:flex items-center space-x-6">
-              <div className="text-right">
-                <a href="tel:+79267301196" className="block text-base xl:text-lg font-extrabold text-gray-900 hover:text-brand transition-colors">
+            <div className="hidden md:flex items-center space-x-4 lg:space-x-3 xl:space-x-6 flex-shrink-0">
+              <div className="text-right whitespace-nowrap">
+                <a href="tel:+79267301196" className="block text-base lg:text-sm xl:text-lg font-extrabold text-gray-900 hover:text-brand transition-colors whitespace-nowrap">
                   +7 (926) 730-11-96
                 </a>
-                <span className="text-[10px] text-green-600 flex items-center justify-end font-bold">
+                <span className="text-[10px] text-green-600 flex items-center justify-end font-bold whitespace-nowrap">
                   <span className="w-2 h-2 rounded-full bg-green-500 mr-1.5 animate-ping"></span> Склад работает 24/7
                 </span>
               </div>
               <button 
                 onClick={() => handleOpenModal("Обратный звонок (Шапка)", "Быстрый обратный звонок", "Специалист свяжется с вами по указанному номеру для консультации.")} 
-                className="bg-gray-900 hover:bg-brand hover:text-gray-900 text-white font-bold text-xs xl:text-sm px-4 xl:px-5 py-3 rounded-lg transition-all duration-300 transform hover:-translate-y-0.5 shadow-md cursor-pointer"
+                className="bg-gray-900 hover:bg-brand hover:text-gray-900 text-white font-bold text-xs lg:text-[11px] xl:text-sm px-4 lg:px-3.5 xl:px-5 py-3 lg:py-2.5 xl:py-3 rounded-lg transition-all duration-300 transform hover:-translate-y-0.5 shadow-md cursor-pointer whitespace-nowrap"
               >
                 Заказать звонок
               </button>
