@@ -288,7 +288,7 @@ export default function App() {
 
     const deliveryNote = baseCost >= 100000 
       ? "БЕСПЛАТНО (Собственный автопарк)" 
-      : "От 4 000 ₽ (Ларгус/Газель/КМУ)";
+      : "От 4 000 ₽ (Газель / Манипулятор / КМУ)";
 
     return {
       baseCost,
@@ -537,8 +537,8 @@ export default function App() {
                 Опалубка и <span className="text-brand">строительное оборудование</span> в Москве и МО
               </h1>
 
-              <p class="text-base sm:text-lg md:text-xl text-gray-300 font-light leading-relaxed max-w-2xl">
-                Поставим всё под монолит: от легкой ручной опалубки МСК до лесов и прогревочных станков ТМО. <span class="text-white font-semibold">Собственный автопарк от Ларгуса до 20-тонников</span>. Инженерный 3D-расчёт раскладки — бесплатно!
+              <p className="text-base sm:text-lg md:text-xl text-gray-300 font-light leading-relaxed max-w-2xl">
+                Поставим всё под монолит: от легкой ручной опалубки МСК до лесов и прогревочных станков ТМО. <span className="text-white font-semibold">Собственный автопарк от маневренных Газелей до 20-тонных шаланд</span>. Инженерный 3D-расчёт раскладки — бесплатно!
               </p>
 
               {/* Grid of Key Features */}
@@ -752,7 +752,7 @@ export default function App() {
               Все виды строительного оборудования и опалубки
             </h2>
             <p className="text-gray-600 mt-4">
-              Широкий спектр сертифицированного оборудования: от ручного монтажа МСК до тяжелого монолита и спецстанков. Мы заменили все демо-фотографии на реальные снимки наших товаров со склада.
+              Широкий спектр сертифицированного оборудования первого класса: от легких систем ручного монтажа МСК до тяжелого стенового монолита, объемных лесов и спецстанков. Все товары в наличии на складе.
             </p>
 
             {/* Catalog Tabs Filter Control */}
@@ -867,7 +867,7 @@ export default function App() {
             <p className="text-gray-300 mt-4">Никаких задержек по вине сторонних служб. Наш собственный автопарк доставляет и забирает опалубку в круглосуточном режиме.</p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             
             <div className="bg-gray-900/80 border border-white/5 rounded-2xl p-6 hover:border-brand/50 transition-all flex flex-col justify-between">
               <div>
@@ -908,20 +908,6 @@ export default function App() {
               <div className="pt-4 border-t border-white/5 flex justify-between items-center">
                 <span className="text-xs text-gray-500 font-bold">Время подачи:</span>
                 <span className="text-xs font-bold text-brand">В день заказа</span>
-              </div>
-            </div>
-
-            <div className="bg-gray-900/80 border border-white/5 rounded-2xl p-6 hover:border-brand/50 transition-all flex flex-col justify-between">
-              <div>
-                <div className="bg-brand/10 text-brand w-12 h-12 rounded-xl flex items-center justify-center text-2xl mb-4">
-                  <Phone className="w-8 h-8 text-brand" />
-                </div>
-                <h3 className="font-extrabold text-lg text-white mb-2">Дежурный Lada Largus</h3>
-                <p className="text-xs text-gray-400 mb-4">Для экспресс-доставки мелких комплектующих. Срочно довезем замки, гайки, смазку или мелкие детали прямо прорабу.</p>
-              </div>
-              <div className="pt-4 border-t border-white/5 flex justify-between items-center">
-                <span className="text-xs text-gray-500 font-bold">Довоз крепежа:</span>
-                <span className="text-xs font-bold text-brand">до 3-х часов</span>
               </div>
             </div>
 
@@ -1315,8 +1301,8 @@ export default function App() {
                       <MapPin className="w-5 h-5" />
                     </div>
                     <div>
-                      <h4 className="font-bold text-sm text-white">Адрес главного склада в Москве:</h4>
-                      <p className="text-xs text-gray-400 font-sans">г. Москва, ул. Рябиновая, д. 45, стр. 2 (Промзона Очаково)</p>
+                      <h4 className="font-bold text-sm text-white">Адрес главного склада:</h4>
+                      <p className="text-xs text-gray-400 font-sans">г. Мытищи, Олимпийский пр-т., 56</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-4">
@@ -1334,7 +1320,7 @@ export default function App() {
                     </div>
                     <div>
                       <h4 className="font-bold text-sm text-white">Почта для чертежей КЖ/АР:</h4>
-                      <a href="mailto:info@mos-opalubka.ru" className="text-sm font-bold text-white hover:text-brand transition-colors">info@mos-opalubka.ru</a>
+                      <a href="mailto:mosopalubka-stroy@mail.ru" className="text-sm font-bold text-white hover:text-brand transition-colors">mosopalubka-stroy@mail.ru</a>
                     </div>
                   </div>
                 </div>
@@ -1419,9 +1405,9 @@ export default function App() {
             <div>
               <h4 className="text-white font-bold text-sm mb-4">Контакты</h4>
               <ul className="space-y-2 text-xs space-y-1">
-                <li>📍 г. Москва, ул. Рябиновая, д. 45</li>
+                <li>📍 г. Мытищи, Олимпийский пр-т., 56</li>
                 <li>📞 +7 (926) 730-11-96</li>
-                <li>✉️ info@mos-opalubka.ru</li>
+                <li>✉️ mosopalubka-stroy@mail.ru</li>
                 <li>📱 Telegram: @ekozhemyako</li>
                 <li>💬 WhatsApp: +7 (926) 730-11-96</li>
                 <li>🕒 Работа склада: Круглосуточно</li>
