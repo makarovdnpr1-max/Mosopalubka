@@ -442,12 +442,11 @@ export default function App() {
             </div>
 
             {/* Navigation Menu (Desktop) */}
-            <nav className="hidden lg:flex items-center lg:space-x-3 xl:space-x-6 font-bold lg:text-[11px] xl:text-sm text-gray-700 whitespace-nowrap flex-shrink-0">
+            <nav className="hidden lg:flex items-center lg:space-x-5 xl:space-x-8 font-bold lg:text-xs xl:text-sm text-gray-700 whitespace-nowrap flex-shrink-0">
               <a href="#about" className="hover:text-brand transition-colors py-2 whitespace-nowrap">О нас</a>
               <a href="#catalog" className="hover:text-brand transition-colors py-2 whitespace-nowrap">Каталог оборудования</a>
               <a href="#calculator" className="hover:text-brand transition-colors py-2 whitespace-nowrap">Калькулятор</a>
               <a href="#fleet" className="hover:text-brand transition-colors py-2 whitespace-nowrap">Наш автопарк</a>
-              <a href="#quiz" className="hover:text-brand transition-colors py-2 whitespace-nowrap">Опрос-расчет</a>
               <a href="#advantages" className="hover:text-brand transition-colors py-2 whitespace-nowrap">Почему мы</a>
             </nav>
 
@@ -1496,3 +1495,4 @@ export default function App() {
     </div>
   );
 }
+
